@@ -5,7 +5,7 @@
 # Windows
 # BRIDGE_ADAPTER = "Ethernet adapter Ethernet"
 # Mac
-BRIDGE_ADAPTER = "en0"
+BRIDGE_ADAPTER = "en0: Wi-Fi"
 Vagrant.configure("2") do |config|
   # Provision base virtual machine
   config.vm.hostname = "pg.wander.local"
